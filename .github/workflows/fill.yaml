@@ -1,7 +1,6 @@
 name: Summarize the day
 
 on:
-  push:
   schedule:
     - cron: "0 18 * * MON-FRI"
 
